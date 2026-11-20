@@ -1,0 +1,14 @@
+{
+  "name": "echo-station-9",
+  "version": "1.0.0",
+  "description": "ЭХО СТАНЦИИ: ОБЪЕКТ-9 — онлайн-хоррор (компактная сборка из 4 файлов)",
+  "type": "module",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {}
+}

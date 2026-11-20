@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: echo-station-9
+    runtime: node
+    plan: free
+    buildCommand: ""
+    startCommand: "npm start"
+    healthCheckPath: /health
+    envVars:
+      - key: HOST
+        value: 0.0.0.0
+      - key: MAX_ROOMS
+        value: "50"
+      - key: TICK_RATE
+        value: "15"
